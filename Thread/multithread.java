@@ -12,35 +12,6 @@ class multithread extends Thread{
         this.end = end;
         this.array=array;
         this.N = N;
-        
-
-
-       /*  public void run() 
-        {
-            for(int i = this.start ;i<=this.end;i++){
-                if(checknum(i)==true)
-                {
-                    System.out.println("Thread "+this.id+" found!! the number is "+i);
-                    try
-                    {
-                         sleep(100);
-                    }catch (InterruptedException ex)
-                    {
-                         System.out.println(ex.getMessage());
-                    }   
-                }
-            }
-        }
-
-        public boolean checknum(int x) {
-            if(x==this.N){
-                return true;
-            }
-            else return false;
-            
-        }
-    }
-*/
     }
 
     public void run(){
